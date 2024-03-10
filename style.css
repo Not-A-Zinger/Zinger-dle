@@ -1,0 +1,25 @@
+body{
+    background: rgb(20, 14, 14);
+}
+button {
+    background-color: #222; /* Dark color for buttons */
+    border: 2px solid #f00; /* Red outline */
+    color: #d87a7a; /* Text color */
+    padding: 10px 20px; /* Padding */
+    margin: 5px; /* Margin */
+    cursor: pointer; /* Cursor style */
+}
+a{
+    color: rgb(163, 79, 79);
+}
+button a {
+    text-decoration: none; /* Remove underline from links inside buttons */
+}
+
+button:hover {
+    background-color: #444; /* Darker color on hover */
+}
+
+#all{
+    border-style: dashed;
+}

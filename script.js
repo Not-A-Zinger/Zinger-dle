@@ -16,3 +16,9 @@ function openAll(){
     window.open("https://neal.fun/infinite-craft/")    
     close()
 }
+
+function confirmation(){
+    if(confirm("Are you sure?")){
+        openAll()
+    }
+}

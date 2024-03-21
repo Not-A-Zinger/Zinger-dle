@@ -1,7 +1,6 @@
 function openAll(){
     window.open("https://contexto.me/")
     window.open("https://www.nytimes.com/games/wordle/index.html")
-    window.open("https://www.nytimes.com/crosswords/game/mini")
     window.open("https://www.nytimes.com/games/connections")
     window.open("https://globle-game.com/")
     window.open("https://globle-capitals.com/")
@@ -13,11 +12,10 @@ function openAll(){
     window.open("https://guesstheaudio.com/")
     window.open("https://metazooa.com")
     window.open("https://linxicon.com")
-    window.open("https://neal.fun/infinite-craft/")    
+    window.open("https://neal.fun/infinite-craft/")             
     close()
 }
-
-function confirmation(){
+function confirmation() {
     if(confirm("Are you sure?")){
         openAll()
     }

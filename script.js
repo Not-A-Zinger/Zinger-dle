@@ -12,6 +12,7 @@ function openAll(){
     window.open("https://guessthe.game/")
     window.open("https://guesstheaudio.com/")
     window.open("https://metazooa.com")
-    window.open("https://linxicon.com")         
+    window.open("https://linxicon.com")
+    window.open("https://neal.fun/infinite-craft/")    
     close()
 }

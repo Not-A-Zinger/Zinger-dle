@@ -14,7 +14,9 @@ function openAll(){
     window.open("https://linxicon.com")
     window.open("https://neal.fun/infinite-craft/")
     window.open("https://www.nytimes.com/crosswords/game/mini")
+    alert("MCdle will now open")
     window.open("https://www.mcdle.net/")
+    alert(MCdle should be open now!)
     close()
 }
 function confirmation() {

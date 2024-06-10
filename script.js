@@ -16,7 +16,7 @@ function openAll(){
     window.open("https://www.nytimes.com/crosswords/game/mini")
     alert("MCdle will now open")
     window.open("https://www.mcdle.net/")
-    alert(MCdle should be open now!)
+    alert("MCdle should be open now!")
     close()
 }
 function confirmation() {

@@ -15,8 +15,8 @@ function openAll(){
     window.open("https://neal.fun/infinite-craft/")
     window.open("https://www.nytimes.com/crosswords/game/mini")
     window.open("https://www.mcdle.net/")
-    window.open("https://faces.wtf/")
     window.open("https://www.boatloadpuzzles.com/playcrossword")
+    window.open("https://faces.wtf/")
     close()
 }
 function confirmation() {

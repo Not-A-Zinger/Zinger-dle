@@ -16,6 +16,7 @@ function openAll(){
     window.open("https://www.nytimes.com/crosswords/game/mini")
     window.open("https://www.mcdle.net/")
     window.open("https://faces.wtf/")
+    window.open("https://www.boatloadpuzzles.com/playcrossword")
     close()
 }
 function confirmation() {

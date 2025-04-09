@@ -20,7 +20,7 @@ function openAll(){
     close()
 }
 function confirmation() {
-    if(confirm("Are you sure?")){
+    if(confirm("Are you sure?\n This will open a bajillion tabs!")){
         openAll()
     }
 }

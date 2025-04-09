@@ -16,6 +16,7 @@ function openAll(){
     window.open("https://www.mcdle.net/")
     window.open("https://www.boatloadpuzzles.com/playcrossword/")
     window.open("https://faces.wtf/")
+    window.open("https://www.geogridgame.com/")
     close()
 }
 function confirmation() {

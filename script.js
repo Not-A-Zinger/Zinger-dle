@@ -5,6 +5,7 @@ function openAll(){
     window.open("https://globle-game.com/")
     window.open("https://globle-capitals.com/")
     window.open("https://travle.earth/")
+    window.open("https://www.geogridgame.com/")
     window.open("https://actorle.com/")
     window.open("https://framed.wtf/")
     window.open("https://episode.wtf/")
@@ -16,7 +17,7 @@ function openAll(){
     window.open("https://www.mcdle.net/")
     window.open("https://www.boatloadpuzzles.com/playcrossword/")
     window.open("https://faces.wtf/")
-    window.open("https://www.geogridgame.com/")
+
     close()
 }
 function confirmation() {

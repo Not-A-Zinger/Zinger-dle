@@ -17,6 +17,7 @@ function openAll(){
     window.open("https://www.mcdle.net/")
     window.open("https://www.boatloadpuzzles.com/playcrossword/")
     window.open("https://faces.wtf/")
+    window.open("https://raddle.quest/")
 
     close()
 }
@@ -25,3 +26,4 @@ function confirmation() {
         openAll()
     }
 }
+

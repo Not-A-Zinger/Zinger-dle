@@ -18,6 +18,7 @@ function openAll(){
     window.open("https://www.boatloadpuzzles.com/playcrossword/")
     window.open("https://faces.wtf/")
     window.open("https://raddle.quest/")
+    window.open("https://eldendle.com/")
 
     close()
 }

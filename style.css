@@ -21,6 +21,6 @@ button:hover {
     background-color: #444; /* Darker color on hover */
 }
 
-#all{
+#all,#allRandom{
     border-style: dashed;
 }

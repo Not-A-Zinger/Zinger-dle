@@ -44,7 +44,7 @@ function confirmation() {
     if(confirm("Are you sure?\n This will open a bajillion tabs!")){
         openAll()
     }
-function confirmationRandom()
+function confirmationRandom(){
         if(confirm("Are you sure?\n This will open a bajillion tabs!")){
         for (i = 0; i<sites.length;i++){
             window.open(sites[i])

@@ -6,7 +6,7 @@ function shuffle(array) {
     return array;
 }
 
-const sites = ["https://contexto.me/", "https://www.nytimes.com/games/wordle/index.html", "https://www.nytimes.com/games/connections", "https://globle-game.com/", "https://globle-capitals.com/","https://travle.earth/","https://travle.earth/"
+const sites = ["https://www.nytimes.com/games/wordle/index.html", "https://www.nytimes.com/games/connections", "https://globle-game.com/", "https://globle-capitals.com/","https://travle.earth/","https://travle.earth/"
               ,"https://www.geogridgame.com/","https://actorle.com/","https://framed.wtf/","https://episode.wtf/","https://guessthe.game/","https://guesstheaudio.com/","https://www.mcdle.net/","https://www.boatloadpuzzles.com/playcrossword/"
               ,"https://faces.wtf/","https://raddle.quest/","https://eldendle.com/","https://www.alldle.net/"];
 
@@ -47,6 +47,7 @@ function confirmation() {
 }
 function confirmationRandom(){
         if(confirm("Are you sure?\n This will open a bajillion tabs!")){
+        window.open("https://contexto.me/")
         for (i = 0; i<sites.length;i++){
             window.open(sites[i])
         }

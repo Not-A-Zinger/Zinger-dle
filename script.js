@@ -43,7 +43,7 @@ function shuffle(array) {
 
 const sites = ["https://www.nytimes.com/games/wordle/index.html", "https://www.nytimes.com/games/connections", "https://globle-game.com/", "https://globle-capitals.com/","https://travle.earth/","https://travle.earth/"
               ,"https://www.geogridgame.com/","https://actorle.com/","https://framed.wtf/","https://episode.wtf/","https://guessthe.game/","https://guesstheaudio.com/","https://www.mcdle.net/","https://www.boatloadpuzzles.com/playcrossword/"
-              ,"https://faces.wtf/","https://raddle.quest/","https://eldendle.com/","https://www.alldle.net/","https://www.chess.com/daily","https://www.nytimes.com/games/pips"];
+              ,"https://faces.wtf/","https://raddle.quest/","https://eldendle.com/","https://www.alldle.net/","https://www.chess.com/daily","https://www.nytimes.com/games/pips","https://krillion.io/"];
 
 shuffle(sites);
 

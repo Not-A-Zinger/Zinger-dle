@@ -4,36 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zinger-dle</title>
-    <script src="script.js"></script>
+    
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/favicon.png" >
 
 </head>
 <body>
-        <button><a href="https://www.nytimes.com/games/wordle/index.html"  target="_blank">Wordle</a></button>
-        <button><a href="https://www.nytimes.com/games/connections" target="_blank">Connections</a></button>
-        <button><a href="https://contexto.me/" target="_blank">Contexto</a></button>
-        <button><a href="https://globle-game.com/" target="_blank">Globle</a></button>
-        <button><a href="https://globle-capitals.com/" target="_blank">Globle Capitals</a></button>
-        <button><a href="https://travle.earth/" target="_blank">Travle</a></button>
-        <button><a href="https://actorle.com/" target="_blank">Actorle</a></button>
-        <button><a href="https://framed.wtf/" target="_blank">Framed</a></button>
-        <button><a href="https://episode.wtf/" target="_blank">Episode</a></button>
-        <button><a href="https://guessthe.game/" target="_blank">Guess The Game</a></button>
-        <button><a href="https://guesstheaudio.com/" target="_blank">Guess The Audio</a></button>
-        <button><a href="https://metazooa.com/" target="_blank">Metazooa</a></button>
-        <button><a href="https://neal.fun/infinite-craft/" target="_blank">Infinite Craft</a></button>
-        <button><a href="https://www.nytimes.com/crosswords/game/mini" target="_blank">Mini Crossword</a></button>
-        <button><a href="https://www.mcdle.net/" target="_blank">MCdle</a></button>
-        <button><a href="https://faces.wtf/" target="_blank">faces WTF</a></button>
-        <button><a href="https://www.boatloadpuzzles.com/playcrossword" target="_blank">Crosswords</a></button>
-        <button><a href="https://www.geogridgame.com/" target="_blank">GeoGrid</a></button>
-        <button><a href="https://raddle.quest/" target="_blank">RADDLE</a></button>
-        <button><a href="https://eldendle.com/" target="_blank">ELDEN-DLE</a></button>
+        <audio id="back" src="node_modules\uisfx\sounds\zen\hover.mp3"></audio>
+        <audio id="recording" src="node_modules\uisfx\sounds\zen\recording.mp3" loop></audio>
+        <button class="single"><a href="https://www.nytimes.com/games/wordle/index.html"  target="_blank">Wordle</a></button>
+        <button class="single"><a href="https://www.nytimes.com/games/connections" target="_blank">Connections</a></button>
+        <button class="single"><a href="https://contexto.me/" target="_blank">Contexto</a></button>
+        <button class="single"><a href="https://globle-game.com/" target="_blank">Globle</a></button>
+        <button class="single"><a href="https://globle-capitals.com/" target="_blank">Globle Capitals</a></button>
+        <button class="single"><a href="https://travle.earth/" target="_blank">Travle</a></button>
+        <button class="single"><a href="https://actorle.com/" target="_blank">Actorle</a></button>
+        <button class="single"><a href="https://framed.wtf/" target="_blank">Framed</a></button>
+        <button class="single"><a href="https://episode.wtf/" target="_blank">Episode</a></button>
+        <button class="single"><a href="https://guessthe.game/" target="_blank">Guess The Game</a></button>
+        <button class="single"><a href="https://guesstheaudio.com/" target="_blank">Guess The Audio</a></button>
+        <button class="single"><a href="https://metazooa.com/" target="_blank">Metazooa</a></button>
+        <button class="single"><a href="https://neal.fun/infinite-craft/" target="_blank">Infinite Craft</a></button>
+        <button class="single"><a href="https://www.nytimes.com/crosswords/game/mini" target="_blank">Mini Crossword</a></button>
+        <button class="single"><a href="https://www.mcdle.net/" target="_blank">MCdle</a></button>
+        <button class="single"><a href="https://faces.wtf/" target="_blank">faces WTF</a></button>
+        <button class="single"><a href="https://www.boatloadpuzzles.com/playcrossword" target="_blank">Crosswords</a></button>
+        <button class="single"><a href="https://www.geogridgame.com/" target="_blank">GeoGrid</a></button>
+        <button class="single"><a href="https://raddle.quest/" target="_blank">RADDLE</a></button>
+        <button class="single"><a href="https://eldendle.com/" target="_blank">ELDEN-DLE</a></button>
+        <button class="single"><a href="https://www.chess.com/daily" target="_blank">Chess Daily</a></button>
+        <button class="single"><a href="https://www.nytimes.com/games/pips">Pips</a></button>
+        <button class="single"><a href="https://www.nytimes.com/games/pips">Chess Daily</a></button>
     
         <br><br>
-        <button id="all" onclick="return confirmation()" type="submit"><a >OPEN ALL</a></button>
-        <button id="allRandom" onclick="return confirmationRandom()" type="submit"><a >OPEN ALL (random)</a></button>
+        <button id="all" onclick="return confirmation()" type="submit" class="all"><a >OPEN ALL</a></button>
+        <button id="allRandom" onclick="return confirmationRandom()" type="submit" class="all"><a >OPEN ALL (random)</a></button>
 </body>
+<script src="script.js"></script>
 </html>
 

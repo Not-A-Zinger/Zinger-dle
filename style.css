@@ -1,26 +1,40 @@
 body{
-    background: rgb(20, 14, 14);
+    background: rgb(30, 26, 37);
     zoom: 250%
 }
 button {
-    background-color: #222; /* Dark color for buttons */
-    border: 2px solid #f00; /* Red outline */
+
+
     color: #d87a7a; /* Text color */
     padding: 10px 20px; /* Padding */
     margin: 5px; /* Margin */
     cursor: pointer; /* Cursor style */
+    transition: transform 0.2s ease;
+    background: transparent;
+    border: 2px solid transparent;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 }
 a{
     color: rgb(163, 79, 79);
 }
 button a {
-    text-decoration: none; /* Remove underline from links inside buttons */
+    text-decoration: none; 
+    
+    
 }
 
 button:hover {
-    background-color: #444; /* Darker color on hover */
+    background-color: rgba(49, 45, 56, 0.322);
+    transform: scale(1.1);
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.53);
+    border-left: 2px solid #d87a7a;
+    border-right: 2px solid #d87a7a;
 }
 
 #all,#allRandom{
     border-style: dashed;
 }
+
+

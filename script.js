@@ -1,3 +1,38 @@
+
+
+const buttons = document.querySelectorAll(".single");
+const sound = document.getElementById("back");
+const bigButtons = document.querySelectorAll(".all")
+const sound2 = document.getElementById("recording");
+
+buttons.forEach(button => {
+    button.addEventListener("mouseenter", () => {
+        sound.play();
+    });
+
+    button.addEventListener("mouseleave", () => {
+
+            sound.pause();
+            sound.currentTime = 0;
+
+    });
+});
+
+bigButtons.forEach(button => {
+    button.addEventListener("mouseenter", () => {
+        sound2.play();
+    });
+
+    button.addEventListener("mouseleave", () => {
+
+            sound2.pause();
+            sound2.currentTime = 0;
+
+    });
+});
+
+
+
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -8,35 +43,18 @@ function shuffle(array) {
 
 const sites = ["https://www.nytimes.com/games/wordle/index.html", "https://www.nytimes.com/games/connections", "https://globle-game.com/", "https://globle-capitals.com/","https://travle.earth/","https://travle.earth/"
               ,"https://www.geogridgame.com/","https://actorle.com/","https://framed.wtf/","https://episode.wtf/","https://guessthe.game/","https://guesstheaudio.com/","https://www.mcdle.net/","https://www.boatloadpuzzles.com/playcrossword/"
-              ,"https://faces.wtf/","https://raddle.quest/","https://eldendle.com/","https://www.alldle.net/"];
+              ,"https://faces.wtf/","https://raddle.quest/","https://eldendle.com/","https://www.alldle.net/","https://www.chess.com/daily","https://www.nytimes.com/games/pips"];
 
 shuffle(sites);
 
-console.log(sites);
-// Example: ["grape", "apple", "kiwi", "banana", "orange"]
+
+
 
 
 function openAll(){
-    window.open("https://contexto.me/")
-    window.open("https://www.nytimes.com/games/wordle/index.html")
-    window.open("https://www.nytimes.com/games/connections")
-    window.open("https://globle-game.com/")
-    window.open("https://globle-capitals.com/")
-    window.open("https://travle.earth/")
-    window.open("https://www.geogridgame.com/")
-    window.open("https://actorle.com/")
-    window.open("https://framed.wtf/")
-    window.open("https://episode.wtf/")
-    window.open("https://guessthe.game/")
-    window.open("https://guesstheaudio.com/")
-    window.open("https://metazooa.com")
-    window.open("https://neal.fun/infinite-craft/")
-    window.open("https://www.nytimes.com/crosswords/game/mini")
-    window.open("https://www.mcdle.net/")
-    window.open("https://www.boatloadpuzzles.com/playcrossword/")
-    window.open("https://faces.wtf/")
-    window.open("https://raddle.quest/")
-    window.open("https://eldendle.com/")
+    sites.forEach(link=>{
+        window.open(link);
+    })
 
     close()
 }
@@ -53,4 +71,7 @@ function confirmationRandom(){
         }
     }
 }
+
+
+
 
